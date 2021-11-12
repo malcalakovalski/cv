@@ -100,7 +100,7 @@ CV %<>% print_section('education', resume = TRUE)
 
 
 
-Experience {data-icon=laptop}
+Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
