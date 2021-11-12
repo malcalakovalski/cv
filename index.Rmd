@@ -109,7 +109,6 @@ CV %<>% print_section('research_positions', resume = TRUE)
 
 
 
-
 Publications
 --------------------------------------------------------------------------------
 
