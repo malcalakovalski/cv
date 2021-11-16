@@ -72,7 +72,7 @@ Software {#software}
 
 <i class="fas fa-box-open"></i> [Package {ggbrookings}](https://brookingsinstitution.github.io/ggbrookings/) - Author, maintainer. 
 
-Programming Skills {#skills}
+Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -101,11 +101,11 @@ CV %<>% print_section('education', resume = TRUE)
 
 
 
-Experience {data-icon=laptop}
+Work Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('research_positions', resume = TRUE)
+CV %<>% print_section('work_experience', resume = TRUE)
 ```
 
 

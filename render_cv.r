@@ -17,7 +17,7 @@ rmarkdown::render("index.rmd",
 # Knit the PDF version to temporary html location
 tmp_html_cv_loc <- fs::file_temp(ext = ".html")
 rmarkdown::render("index.rmd",
-                  params = list(pdf_mode = TRUE),
+                  params = list(pdf_mode = FALSE),
                   output_file = tmp_html_cv_loc)
 
 # Convert to PDF using Pagedown
