@@ -54,7 +54,7 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _nickstrayer.me/datadrivencv/_")
+  #cat("View this CV online with links at _nickstrayer.me/datadrivencv/_")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/malcalakovalski/cv/raw/master/alcala_kovalski_cv.pdf)")
 }
@@ -120,6 +120,6 @@ CV %<>% print_section('academic_articles', resume = TRUE)
 
 
 ```{r}
-CV %<>% print_links()
+# CV %<>% print_links()
 ```
 
