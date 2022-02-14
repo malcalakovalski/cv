@@ -24,7 +24,8 @@ source("cv_printing_functions.r")
 
 CV <- create_CV_object(
   data_location = "https://docs.google.com/spreadsheets/d/1XTvyiIEKFMMvLIQnL5shIUXv2_Y1atyEqZNkEUtZIs4/edit?usp=sharing",  
-  pdf_mode = params$pdf_mode
+  pdf_mode = params$pdf_mode,
+  
 )
 
 ```
@@ -48,11 +49,6 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-```{r}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
-```
 
 ```{r}
 if(params$pdf_mode){
@@ -94,7 +90,14 @@ Programming skills {#skills}
 
 <i class="fab fa-css3-alt"></i> `CSS`
 
+Languages {#languages}
+--------------------------------------------------------------------------------
 
+**English:** Native
+
+**Spanish:** Native
+
+**Portuguese:** Proficient
 
 Main
 ================================================================================
@@ -104,7 +107,7 @@ Manuel Alcalá Kovalski {#title}
 
 ```{r}
 # Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block("intro") 
+# CV %<>% print_text_block("intro") 
 ```
 
 
