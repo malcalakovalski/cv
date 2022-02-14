@@ -1,6 +1,6 @@
 ---
-title: "Manuel Alcala Kovalski's CV"
-author: Manuel Alcala Kovalski
+title: "Manuel Alcalá Kovalski's CV"
+author: Manuel Alcalá Kovalski
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
@@ -28,6 +28,8 @@ CV <- create_CV_object(
 )
 
 ```
+<!-- inicio font awesome -->
+<script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
 
 
 ```{r}
@@ -56,7 +58,8 @@ datadrivencv::build_network_logo(CV$entries_data)
 if(params$pdf_mode){
   #cat("View this CV online with links at _nickstrayer.me/datadrivencv/_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/malcalakovalski/cv/raw/master/alcala_kovalski_cv.pdf)")
+  cat(" ")
+  # cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/malcalakovalski/cv/raw/master/alcala_kovalski_cv.pdf)")
 }
 ```
 
@@ -72,17 +75,31 @@ Software {#software}
 
 <i class="fas fa-box-open"></i> [Package {ggbrookings}](https://brookingsinstitution.github.io/ggbrookings/) - Author, maintainer. 
 
-Skills {#skills}
+
+Programming skills {#skills}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %>% print_skill_bars()
-```
+<i class="fab fa-r-project"></i> `R`
+
+<i class="fa fa-area-chart" aria-hidden="true"></i>
+ `tidyverse`
+
+<i class="fas fa-code-branch"></i> `Git`
+
+<i class="fab fa-github"></i> `GitHub`
+
+<i class='fab fa-markdown fa-fw fa-1x'></i> `Markdown`
+
+<i class="fab fa-html5"></i> `HTML`
+
+<i class="fab fa-css3-alt"></i> `CSS`
+
+
 
 Main
 ================================================================================
 
-Manuel Alcala Kovalski {#title}
+Manuel Alcalá Kovalski {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
