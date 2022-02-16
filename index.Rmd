@@ -66,7 +66,7 @@ Contact {#contact}
 CV %>% print_contact_info()
 ```
 
-Software {#software}
+Open source {#opensource}
 --------------------------------------------------------------------------------
 
 <i class="fas fa-box-open"></i> [Package {ggbrookings}](https://brookingsinstitution.github.io/ggbrookings/) - Author, maintainer. 
@@ -75,20 +75,16 @@ Software {#software}
 Programming skills {#skills}
 --------------------------------------------------------------------------------
 
-<i class="fab fa-r-project"></i> `R`
-
-<i class="fa fa-area-chart" aria-hidden="true"></i>
+<i class="fab fa-r-project"></i> `R` using the <i class="fa fa-area-chart" aria-hidden="true"></i>
  `tidyverse`
 
-<i class="fas fa-code-branch"></i> `Git`
-
-<i class="fab fa-github"></i> `GitHub`
+<i class="fas fa-code-branch"></i> `Git` and <i class="fab fa-github"></i> `GitHub`
 
 <i class='fab fa-markdown fa-fw fa-1x'></i> `Markdown`
 
-<i class="fab fa-html5"></i> `HTML`
+<i class="fab fa-html5"></i> `HTML` and <i class="fab fa-css3-alt"></i> `CSS`
 
-<i class="fab fa-css3-alt"></i> `CSS`
+<i class="fab fa-python"></i> `Python`
 
 Languages {#languages}
 --------------------------------------------------------------------------------
@@ -98,6 +94,19 @@ Languages {#languages}
 **Spanish:** Native
 
 **Portuguese:** Proficient
+
+Projects {#projects}
+--------------------------------------------------------------------------------
+
+I have made contributions to #TidyTuesday 
+
+Disclaimer {#disclaim}
+--------------------------------------------------------------------------------
+
+Made with the R packages [**pagedown**](https://github.com/rstudio/pagedown) and [***datadrivencv***](https://github.com/nstrayer/datadrivencv). 
+
+The source code is available [on github.com/malcalakovalski/cv](https://github.com/malcalakovalski/cv).
+
 
 Main
 ================================================================================
@@ -130,11 +139,18 @@ CV %<>% print_section('work_experience', resume = TRUE)
 
 
 
-Publications
+Academic Articles
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('academic_articles', resume = TRUE)
+```
+
+Blog Posts{data-icon=pen}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('blog_posts', resume = TRUE)
 ```
 
 
