@@ -22,4 +22,4 @@ rmarkdown::render("index.rmd",
 
 # Convert to PDF using Pagedown
 pagedown::chrome_print(input = tmp_html_cv_loc,
-                       output = "resume.pdf")
+                       output = "alcala-kovalski-resume.pdf")

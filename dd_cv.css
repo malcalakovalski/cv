@@ -48,7 +48,7 @@ sup {
 }
 
 .main-block:not(.concise) .details div {
-  padding-top: 0.005rem;
+  padding-top: 0.00rem;
   margin-top: 0rem;
 }
 
@@ -127,4 +127,15 @@ sup {
 /* Make the network viz go up near the top */
 svg {
   margin-top: -1.25in;
+}
+
+
+[data-id="disclaimer"] {
+    position: relative;
+    right: var(--sidebar-horizontal-padding);
+    font-size: 0.75rem;
+    font-style: italic;
+    line-height: 1.1;
+    text-align: right;
+    color: #777;
 }
