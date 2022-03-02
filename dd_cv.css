@@ -34,17 +34,20 @@ sup {
   --pagedjs-margin-top: .1in;
   --pagedjs-margin-bottom: .0000001in;
 }
+
 /* Customize some of the sizing variables */
 :root {
   --sidebar-width: 12rem; /* Shrink sidebar width  */
-  --sidebar-background-color: #f7fbff; /* Make sidebar blue */
+
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
   --decorator-border: 1px solid #bdd7e7; /* Make timeline a blue as well*/
 
 /* Customize spacing between sections */
   --row-blocks-padding-top: 0.35rem;
+  --sidebar-background-color: #f7fbff; /* Make sidebar blue */
 }
+
 
 .details .place {
   margin-top: 0rem;
@@ -152,3 +155,5 @@ svg {
     margin: auto 0.55in 0.1in auto;
     line-height: 1.2;
 }
+
+
