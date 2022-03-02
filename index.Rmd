@@ -139,14 +139,15 @@ CV %<>% print_section('work_experience', resume = TRUE)
 
 
 
-Academic Articles
+Academic Articles {data-concise=false}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('academic_articles', resume = TRUE)
 ```
 
-Blog Posts{data-icon=pen}
+
+Blog Posts {data-icon=pen data-concise=false}
 --------------------------------------------------------------------------------
 
 ```{r}
