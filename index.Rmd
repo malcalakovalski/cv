@@ -95,12 +95,12 @@ Languages {#languages}
 
 **Portuguese:** Proficient
 
-Projects {#projects}
+Data Science Projects {#projects}
 --------------------------------------------------------------------------------
 
-I have made contributions to #TidyTuesday 
+My contributions to the `#TidyTuesday` project are available [on github.com/malcalakovalski/tidy-tuesday](https://github.com/malcalakovalski/cv)
 
-Disclaimer {#disclaim}
+Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 Made with the R packages [**pagedown**](https://github.com/rstudio/pagedown) and [***datadrivencv***](https://github.com/nstrayer/datadrivencv). 
@@ -139,14 +139,15 @@ CV %<>% print_section('work_experience', resume = TRUE)
 
 
 
-Academic Articles
+Academic Articles {data-concise=false}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('academic_articles', resume = TRUE)
 ```
 
-Blog Posts{data-icon=pen}
+
+Blog Posts {data-icon=pen data-concise=false}
 --------------------------------------------------------------------------------
 
 ```{r}
